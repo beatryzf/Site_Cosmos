@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="img/icon.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Cosmos</title>
+</head>
+<nav class="navbar border-bottom border-body" style="background-color: #0c2d48" ; data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#index.html"><img src="img/icon.png" alt="" width="70" height="60"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" id="font" href="index.html" align="center">
+          <style>
+            @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gloock&family=Libre+Baskerville:wght@700&family=Lilita+One&display=swap');
+          </style>Home
+        </a>
+        <a class="nav-link" id="font" href="manual.html" align="center">
+          <style>
+            @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gloock&family=Libre+Baskerville:wght@700&family=Lilita+One&display=swap');
+          </style>Manual
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<body class="fundo" id="#manual.html">
+  <div>
+    <br>
+    <br>
+    <a class="nav-link active" font-size="170" aria-current="page" id="texto1" align="center">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gloock&family=Libre+Baskerville:wght@700&family=Lilita+One&display=swap');
+      </style>Manual do jogo</br>
+      Nome do Jogo: “Cosmos”
+      <br>
+      <br>
+    </a>
+    <a class="nav-link active" aria-current="page" id="font1" align="center">
+    
+      1- Primeiramente precisaremos instalar o GameMaker na sua Maquina, você pode obtê-lo na Pagina de Download
+      Oficial.
+      <br>
+      <img src="img/manual1.jpeg" alt="" width="1000" height="450">
+      <br>
+      <br>2- Após obter um arquivo semelhante á “GameMaker-Installer-<VERSÃO>.exe”, execute-o como administrador e
+        instale-o. 
+       </br>
+        <img src="img/manual3.jpeg" alt="" width="1000" height="450">
+        <br>
+        <br>3- Após instalar o GameMaker corretamente você poderá vê-lo em sua Área de Trabalho e executando o mesmo
+        verá a tela de inicio do software.
+        <img src="img/manual2.jpeg" alt="" width="1000" height="450">
+        <br>
+        <br>4- Em sua tela Inicial você devera clicar em “Novo” (lembrando de verificar se sua engine esta em
+        português), <br>
+        e logo após clicar em “Modelo em Branco”, dê um nome ao projeto e clique em “Vamos Lá”.</br>
+        <img src="img/manual4.jpeg" alt="" width="1000" height="450">
+        <br>
+        <br>5- Se seguiu os passos corretamente até aqui, deverá ver o “Espaço de Trabalho” da engine, o mesmo será o
+        que iremos trabalhar neste tutorial.<br>
+        <br>6- Começaremos criando algumas “Sprites”, que são as Imagens que farão parte do jogo, como: Personagens,
+        Inimigos, Obstáculos e etc... Para criar sua primeira Sprite deverá ir no Gerenciador de Recursos presente no
+        lado direito da Tela, e clicar com o botão direito do mouse na pasta Sprites, logo após clicar em Criar ->
+        Sprite, e dê um nome a sua Sprite.<br>
+        <img src="img/manual5.jpeg" alt="" width="1000" height="450">
+        <br>
+        <br>7- Em seu espaço de trabalho aparecerá uma tela com as propriedades da Sprite, nela é claro, editar a
+        Sprite, mas também mudar o tamanho, adicionar a mascara de colisão e até importar sprites já existentes.<br>
+        <img src="img/manual6.jpeg" alt="" width="1000" height="450">
+        <br>
+        <br>8- Clicando em Editar Imagem, aparecerá a tela de edição onde você desenhara a sua sprite.<br>
+        <br>9- Após terminar o desenho da Sprite você poderá fechar o Editor de Imagens e retornará a tela de
+        propriedades da imagem, recomendamos deixar o ponto de origem da sprite no meio central da imagem, e mudar o
+        FPS de sua imagem para um numero que fique adequado para as imagens criadas.<br>
+        <img src="img/manual7.jpeg" alt="" width="1000" height="450">
+        <br>
+        <br>10- Após a sprite criada você devera criar um objeto, ele será responsável por mostrar sua sprite na tela
+        do jogo, executar os códigos e etc...<br>
+        Para criar um objeto, volte ao Navegador de Recursos, clicando com o botão direito na pasta Objetos e logo
+        após em Criar -> <br>
+        Objeto, aparecera a tela de propriedades do objeto, nela você ira selecionar a sprite desejada para tal
+        objeto.<br>
+        <img src="img/manual8.jpeg" alt="" width="1000" height="450">
+        <br>
+        <br>11- Supondo que faremos o personagem principal do jogo, temos que colocar a sprite do personagem no objeto
+        do personagem.<br>
+        <img src="img/manual9.jpeg" alt="" width="1000" height="450">
+        <br>
+        <br>12- Agora temos que criar os codigos de movimento do personagem <br>
+        <img src="img/manual11.png" alt="" width="1000" height="450">
+        <br>
+        <br>
+        <img src="img/manual12.jpeg" alt="" width="1000" height="450">
+        <br>
+        <br>
+        <img src="img/manual13.jpeg" alt="" width="1000" height="450">
+        <br>
+        <br>13- Após os códigos colocados dentro do objeto chegou a hora de coloca-lo na cena do jogo para isso
+        selecione a cena desejada...<br>
+        <img src="img/manual10.jpeg" alt="" width="100" height="300">
+        <br>
+        <br>
+    </a>
+    <br>
+    <div class="container">
+      <div class="footer-content" style="background-color: #0c2d48;">
+        <br>
+        <br>
+        <div class="footer-info" id="text3">
+          <p>Email: cosmosoficial@gmail.com</p>
+          <p>Telefone: (11) 99378-2498</p>
+        </div>
+        <div class="redes-socias" align="center">
+          <a href="https://instagram.com/cosmos_ofcbr?igshid=NGVhN2U2NjQ0Yg=="><svg xmlns="http://www.w3.org/2000/svg"
+              width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16" id="insta">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+            </svg></a>
+            <br>
+            <br>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+</body>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>

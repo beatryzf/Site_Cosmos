@@ -1,0 +1,101 @@
+.fundo {
+
+    background-color: #050A30;
+}
+
+#font{
+
+    font-family: 'Anton', sans-serif;
+    font-family: 'Gloock', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lilita One', cursive;
+    color: #b1d4e0;
+
+}
+#font1{
+
+    font-family: 'Anton', sans-serif;
+    font-family: 'Gloock', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lilita One', cursive;
+    color: #b1d4e0;
+    font-size: 120%;
+
+}
+
+#font:hover {
+    color: #FFFF86;
+}
+
+#texto1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Gloock', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lilita One', cursive;
+    color: #b1d4e0;
+    font-size: 170%;
+
+}
+
+#texto1:hover {
+    color: #FFFF86;
+}
+
+.icon2{
+
+    width: 30;
+    height: 20;
+}
+
+#text2{
+
+    font-family: 'Anton', sans-serif;
+    font-family: 'Gloock', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lilita One', cursive;
+    color: gray;
+    font-size: 120%;
+    text-align: center;
+
+
+}
+#text3{
+
+    font-family: 'Anton', sans-serif;
+    font-family: 'Gloock', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lilita One', cursive;
+    color: gray;
+    font-size: 100%;
+    text-align: center;
+
+
+}
+.icon{
+
+    align-items: center;
+}
+
+.footer-social{
+
+    align-items: center;
+}
+.icon:hover { 
+    transition: all 0.8s; 
+    cursor: pointer;
+} 
+   
+.icon:hover { 
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8); 
+}
+
+.icon2:hover { 
+    transition: all 0.8s; 
+    cursor: pointer;
+} 
+   
+.icon2:hover { 
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8); 
+}
